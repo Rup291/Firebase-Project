@@ -1,4 +1,4 @@
-import React, { createContext } from "react";
+import { createContext } from "react";
 
 // Create a context with a generic type or `any` if you're unsure
 export const FirebaseContext = createContext<any>(null);
